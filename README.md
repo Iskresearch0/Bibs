@@ -55,7 +55,7 @@ Licensing and attribution: Public availability does not automatically grant unre
 Project Status
 
 Model	Planned Parameters	Status	Release
-Hayku 0.1 Beta	270M initially; long-term goal of up to 1B	In development	Not scheduled
+Hayku 0.1 Beta	20M initially; long-term goal of up to 1B	In development	Not scheduled
 UltraCore 0.1 Prototype	10B	In development	No estimate available
 
 These specifications represent current development plans and may change as the projects progress. They should not be interpreted as verified benchmarks or confirmed model capabilities.
