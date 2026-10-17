@@ -87,6 +87,7 @@ Disclaimer
 BIBS, Hayku, and UltraCore are projects under development. Planned parameter counts, architecture concepts, training methods, and distribution formats may change during development.
 
 No release date is currently guaranteed for either 
+
 ────────
 
 BIBS by Isk
