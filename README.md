@@ -1,79 +1,102 @@
 BIBS
 
-Uma família de modelos de linguagem em desenvolvimento
+A Family of Language Models in Development
 
-Hayku · UltraCore
+BIBS is a family of language models currently under development, focused on exploring different model sizes, training approaches, and innovative architectures.
 
-Bibs é uma família de modelos de linguagem que reúne projetos com diferentes escalas, objetivos e abordagens de pesquisa em inteligência artificial.
+The family currently includes Hayku and UltraCore. Both models are works in progress, and their specifications may evolve throughout development.
 
-Os modelos apresentados neste repositório estão em desenvolvimento. As especificações descritas representam objetivos de projeto e poderão evoluir durante a pesquisa.
+Project status: In development. No release dates have been announced.
 
 ⸻
 
-Modelos
+Models
 
 Hayku 0.1 Beta
 
-Status: Em desenvolvimento
-Parâmetros iniciais planejados: 270 milhões (270M)
-Objetivo de evolução: até 1 bilhão (1B) de parâmetros
-Lançamento: Sem data definida.
+A compact language model designed to be the starting point of the BIBS family.
 
-Hayku é um dos modelos da família Bibs. Sua fase beta tem como objetivo inicial uma escala de 270 milhões de parâmetros, com a intenção de evoluir progressivamente até 1 bilhão de parâmetros.
+* Version: 0.1 Beta
+* Planned initial size: 270 million parameters
+* Long-term goal: Explore scaling the model up to 1 billion parameters
+* Status: In development
+* Release date: Not yet scheduled
 
-O desenvolvimento e a validação das capacidades do modelo ainda estão em andamento.
+The initial goal is to develop a smaller model that can be continuously improved through training, experimentation, and evaluation.
+
+The long-term goal is to explore scaling Hayku toward 1 billion parameters. This is a development objective, not a confirmed specification for a released model.
 
 UltraCore 0.1 Prototype
 
-Status: Em desenvolvimento
-Escala planejada: 10 bilhões (10B) de parâmetros
-Abordagem: Pesquisa de uma nova arquitetura baseada em Transformers
-Lançamento: Sem previsão no momento.
+An experimental language model focused on developing an entirely new Transformer-based architecture.
 
-UltraCore é um projeto experimental da família Bibs que busca explorar uma arquitetura Transformers inteiramente nova.
+* Version: 0.1 Prototype
+* Planned size: 10 billion parameters
+* Architecture: A proposed novel Transformer architecture
+* Status: In development
+* Release date: No estimate available at this time
 
-O objetivo é pesquisar e desenvolver uma arquitetura própria, com escala planejada de 10 bilhões de parâmetros. A arquitetura final, as capacidades, os requisitos de hardware e os resultados ainda dependerão do desenvolvimento e da validação experimental.
-
-Não existe previsão de lançamento neste momento.
-
-⸻
-
-Dados de treinamento
-
-A estratégia de preparação dos dados utiliza datasets públicos disponibilizados no Hugging Face como fontes para a composição dos corpora de treinamento.
-
-Os dados serão refinados e preparados por meio de etapas de seleção, filtragem e processamento, buscando melhorar sua qualidade e adequação aos objetivos de cada modelo.
-
-As fontes efetivamente utilizadas, os critérios de filtragem e os detalhes do processamento poderão ser documentados conforme forem definidos. As licenças e condições de uso de cada dataset deverão ser verificadas individualmente.
+UltraCore is an experimental research and development project. Its architecture, implementation, and final specifications have not yet been validated in a released model.
 
 ⸻
 
-Status do projeto
+Training Data
 
-Modelo	Escala planejada	Estado atual	Lançamento
-Hayku 0.1 Beta	270M inicialmente; objetivo de até 1B	Em desenvolvimento	Sem data definida
-UltraCore 0.1 Prototype	10B	Em desenvolvimento	Sem previsão no momento
+The training pipeline is planned to use publicly available datasets from Hugging Face.
 
-⸻
+Selected datasets may be reviewed, filtered, cleaned, deduplicated, and refined before being used for training.
 
-Disponibilidade dos modelos
+Dataset selection and processing will depend on each model’s objectives, architecture, and technical requirements.
 
-Os modelos ainda não estão disponíveis para download.
-
-Quando as versões estiverem prontas, a distribuição planejada será feita por meio de arquivos no formato GGUF, acompanhados das informações necessárias para identificar e utilizar cada versão compatível.
+Licensing and attribution: Public availability does not automatically grant unrestricted usage rights. Applicable licenses, usage conditions, and attribution requirements must be reviewed and respected.
 
 ⸻
 
-Aviso
+Project Status
 
-As escalas de parâmetros, os objetivos de arquitetura e as descrições deste documento representam planos de desenvolvimento, não resultados finais comprovados.
+Model	Planned Parameters	Status	Release
+Hayku 0.1 Beta	270M initially; long-term goal of up to 1B	In development	Not scheduled
+UltraCore 0.1 Prototype	10B	In development	No estimate available
 
-Desempenho, compatibilidade, requisitos de hardware e capacidades dos modelos serão documentados à medida que forem implementados e avaliados.
+These specifications represent current development plans and may change as the projects progress. They should not be interpreted as verified benchmarks or confirmed model capabilities.
 
 ⸻
 
-<div align="center">
+Model Distribution
 
-Bibs — pesquisa, desenvolvimento e evolução de modelos de linguagem.
+GGUF distribution is planned for future model releases.
 
-</div>
+No downloadable model files are available yet.
+
+When a model is ready for release, this repository may provide its .gguf file, documentation, and relevant usage instructions.
+
+Compatibility, hardware requirements, and supported inference runtimes will be documented as they are tested and validated.
+
+⸻
+
+Roadmap
+
+* [ ]	Develop and evaluate Hayku 0.1 Beta
+* [ ]	Refine the training-data preparation pipeline
+* [ ]	Research and prototype the UltraCore architecture
+* [ ]	Evaluate model quality, performance, and hardware requirements
+* [ ]	Prepare model files and documentation for future releases
+* [ ]	Publish model artifacts when they are ready
+
+Roadmap items represent development goals, not guarantees or release commitments.
+
+⸻
+
+About This Repository
+
+This repository introduces the BIBS model family and documents its ongoing development.
+
+Model files, benchmarks, technical documentation, and usage instructions will be added as they become available and have been validated.
+
+⸻
+
+Disclaimer
+
+BIBS, Hayku, and UltraCore are projects under development. Planned parameter counts, architecture concepts, training methods, and distribution formats may change during development.
+
+No release date is currently guaranteed for either 
