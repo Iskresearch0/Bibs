@@ -89,7 +89,6 @@ BIBS, Hayku, and UltraCore are projects under development. Planned parameter cou
 No release date is currently guaranteed for either 
 
 ────────
-
 BIBS by Isk
 
 
