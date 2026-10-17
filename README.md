@@ -12,12 +12,12 @@ Project status: In development. No release dates have been announced.
 
 Models
 
-Hayku 0.1 Beta
+Hayku 0.1 
 
 A compact language model designed to be the starting point of the BIBS family.
 
-* Version: 0.1 Beta
-* Planned initial size: 270 million parameters
+* Version: 0.1 
+* Planned initial size: 20 million parameters
 * Long-term goal: Explore scaling the model up to 1 billion parameters
 * Status: In development
 * Release date: Not yet scheduled
