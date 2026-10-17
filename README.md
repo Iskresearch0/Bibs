@@ -74,19 +74,6 @@ Compatibility, hardware requirements, and supported inference runtimes will be d
 
 ⸻
 
-Roadmap
-
-* [ ]	Develop and evaluate Hayku 0.1 Beta
-* [ ]	Refine the training-data preparation pipeline
-* [ ]	Research and prototype the UltraCore architecture
-* [ ]	Evaluate model quality, performance, and hardware requirements
-* [ ]	Prepare model files and documentation for future releases
-* [ ]	Publish model artifacts when they are ready
-
-Roadmap items represent development goals, not guarantees or release commitments.
-
-⸻
-
 About This Repository
 
 This repository introduces the BIBS model family and documents its ongoing development.
@@ -100,3 +87,11 @@ Disclaimer
 BIBS, Hayku, and UltraCore are projects under development. Planned parameter counts, architecture concepts, training methods, and distribution formats may change during development.
 
 No release date is currently guaranteed for either 
+────────
+
+BIBS by Isk
+
+
+
+
+
